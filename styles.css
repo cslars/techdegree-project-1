@@ -180,6 +180,14 @@ a.social:hover {
   opacity: 1;
 }
 
+/* Custom code */
+
+.tech-stack {
+  background: url('images/sleepy_cat_macbook.jpg') center 70%/cover;
+  width: 100%;
+  min-height: 30vh;
+}
+
 .fondue {
   padding: 20px;
   display: flex;
@@ -213,11 +221,11 @@ a.social:hover {
   margin-top: 20px;
 }
 
-.fondue-photo:hover {
+.fondue-photo img:hover {
   opacity: 0.8;
 }
 
-.grocery-list {
+.fondue-list {
   text-align: left;
   line-height: 1.5;
 }
